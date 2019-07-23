@@ -21,6 +21,8 @@ namespace CurrencyConverter //Program picks conversions from this class.
             //TODO: Implement asking the user if they want to restart the application.
 
         }
+
+     
         
         public static float euroDollar = 1.12f; //currentish exchange rate 
         public static float dollarEuro = 0.89f; //currentish exchange rate 

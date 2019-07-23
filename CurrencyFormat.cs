@@ -1,5 +1,5 @@
 using System;
-
+//TODO: Round number to two decimal places.
 namespace CurrencyConverter
 {
     public class CurrencyFormat
