@@ -11,11 +11,11 @@ namespace CurrencyConverter
         private static char _currencyInChar;
         private static byte _valueOut;
         private static byte _valueIn;
-        private static float _amount;
+        private static decimal _amount;
 
         
         
-        float _output;
+        decimal _output;
 
         public static void Dialogue(string[] args)
         {
@@ -45,9 +45,10 @@ namespace CurrencyConverter
                 
             Console.Write("\nAmount? ");
             var amountString = Console.ReadLine(); //Asks and reads the amount of money to convert to.
+            _amount = System.Convert.ToDecimal(amountString);
             if (_valueIn == 0) //If the currency to exchange from is Euro, the comma is being replaced with a period to allow calculations.
             {
-                _amount = System.Convert.ToSingle(amountString.Replace(",", "."));
+                _amount = System.Convert.ToDecimal(amountString.Replace(",", "."));
 
             }
                 
@@ -64,7 +65,7 @@ namespace CurrencyConverter
         }
 
         
-        public float ConvertCurrency(float x, byte y, byte z) //float x for the value to convert, string y for the entered input currency, string z for the entered output currency
+        public decimal ConvertCurrency(decimal x, byte y, byte z) //float x for the value to convert, string y for the entered input currency, string z for the entered output currency
         {
             //TODO: Rework this part to be less awful and more simple.
             
@@ -77,13 +78,13 @@ namespace CurrencyConverter
                 
                 if (z == 1)
                 {
-                     _output = x * ConversionTable.euroDollar;
+                     _output = Math.Round(x * (Decimal)ConversionTable.euroDollar, 2);
                      _currencyOutChar = currencyCharacters[1]; //Sets output currency character to Dollar
                 }
 
                 if (z == 0)
                 {
-                    _output = x;
+                    _output = Math.Round(x, 2);
                     _currencyOutChar = currencyCharacters[0]; //Sets output currency to Euro
                 }
             }
@@ -94,7 +95,7 @@ namespace CurrencyConverter
 
                 if (z == 0)
                 {
-                    _output = x * ConversionTable.dollarEuro;
+                    _output = Math.Round(x * (Decimal)ConversionTable.dollarEuro, 2);
                     _currencyOutChar = currencyCharacters[0]; //Sets output currency character to Dollar
 
 
@@ -102,7 +103,8 @@ namespace CurrencyConverter
 
                 if (z == 1)
                 {
-                    _output = x;
+                    
+                    _output = Math.Round(x, 2);
                     _currencyOutChar = currencyCharacters[1];  //Sets output currency character to Dollar
 
                 }
