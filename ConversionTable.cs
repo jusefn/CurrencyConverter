@@ -17,8 +17,9 @@ namespace CurrencyConverter //Program picks conversions from this class.
             Console.WriteLine("\nThese are the current available conversion tables\n" +
                               "1€ is " + currentDollar + " Dollar\n" +
                               "$1 is " + currentEuro + " Euro");
-            Console.ReadKey();
-            //TODO: Implement asking the user if they want to restart the application.
+            
+            SelectionMenu.RestartDialogue(args);
+
 
         }
 

@@ -58,10 +58,10 @@ namespace CurrencyConverter
             var exchangeOut = CurrencyFormat.FormattingCurrency(output.ToString(), _currencyOutChar); //changes currency to appropriate format
 
 
-            Console.WriteLine("\n" + exchangeIn + " is " + exchangeOut); 
+            Console.WriteLine("\n" + exchangeIn + " is " + exchangeOut);
 
-                Console.ReadKey();
-                //TODO: Implement asking the user if they want to restart the application.
+            SelectionMenu.RestartDialogue(args);
+            
         }
 
         
