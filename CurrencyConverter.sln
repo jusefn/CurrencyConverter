@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter", "CurrencyConverter\CurrencyConverter.csproj", "{F6BAB2B2-6258-416C-9481-58BFD81B027C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter", "src\CurrencyConverter\CurrencyConverter.csproj", "{F6BAB2B2-6258-416C-9481-58BFD81B027C}"
 EndProject
 
 Global
