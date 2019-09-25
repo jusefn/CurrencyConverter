@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\jusef\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jusef\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CurrencyConverter.1883074824.00" t="ExcludeRecursive" />
+    <e p="C:\Users\jusef\RiderProjects\CurrencyConverter" t="IncludeFlat">
+      <e p="CurrencyConverter.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src\CurrencyConverter" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ConversionTable.cs" t="Include" />
+        <e p="Convert.cs" t="Include" />
+        <e p="CurrencyConverter.csproj" t="IncludeRecursive" />
+        <e p="CurrencyFormat.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CurrencyConverter.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="SelectionMenu.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
