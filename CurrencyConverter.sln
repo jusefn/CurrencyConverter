@@ -1,7 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter", "CurrencyConverter.csproj", "{F6BAB2B2-6258-416C-9481-58BFD81B027C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter", "CurrencyConverter\CurrencyConverter.csproj", "{F6BAB2B2-6258-416C-9481-58BFD81B027C}"
 EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +13,9 @@ Global
 		{F6BAB2B2-6258-416C-9481-58BFD81B027C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6BAB2B2-6258-416C-9481-58BFD81B027C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6BAB2B2-6258-416C-9481-58BFD81B027C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56077640-023D-40B9-8F28-53D154B50927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56077640-023D-40B9-8F28-53D154B50927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56077640-023D-40B9-8F28-53D154B50927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56077640-023D-40B9-8F28-53D154B50927}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
